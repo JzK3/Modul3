@@ -7,8 +7,12 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            string MyName = "Azaz";
-            Console.WriteLine(MyName);
+            Console.WriteLine(true);
+            Console.WriteLine(false);
+            ushort usrt = 65535;
+            usrt++;
+            Console.WriteLine(usrt);
+            Console.ReadKey();
         }
     }
 }
