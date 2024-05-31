@@ -16,6 +16,10 @@ namespace ConsoleApp3
             Console.WriteLine("Your age is {0}", age);
             Console.WriteLine("Do you have a pet? {0}",pet);
             Console.WriteLine("Your shoe size is - {0}", shoesize);
+
+            Console.WriteLine("IntMin {0} ", int.MinValue);
+            Console.WriteLine("IntMax {0} ", int.MaxValue);
+            Console.ReadLine();
         }
     }
 }
