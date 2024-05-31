@@ -7,12 +7,15 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(true);
-            Console.WriteLine(false);
-            ushort usrt = 65535;
-            usrt++;
-            Console.WriteLine(usrt);
-            Console.ReadKey();
+            string name = "Andy";
+            byte age = 25;
+            Boolean pet = true;
+            double shoesize = 44.5;
+
+            Console.WriteLine("{0}, Hello!", name);
+            Console.WriteLine("Your age is {0}", age);
+            Console.WriteLine("Do you have a pet? {0}",pet);
+            Console.WriteLine("Your shoe size is - {0}", shoesize);
         }
     }
 }
